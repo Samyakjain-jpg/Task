@@ -21,12 +21,12 @@ const MyLoans = () => {
           justifyContent: "space-between"
         }}
       >
-        <LoanListItem />
-        <LoanListItem />
-        <LoanListItem />
-        <LoanListItem />
-        <LoanListItem />
-        <LoanListItem />
+        <LoanListItem data={{id:1}} />
+        <LoanListItem data={{id:1}} />
+        <LoanListItem data={{id:1}} />
+        <LoanListItem data={{id:1}} />
+        <LoanListItem data={{id:1}} />
+        <LoanListItem data={{id:1}} />
       </Box>
     </Box>
   );

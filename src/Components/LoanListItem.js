@@ -1,6 +1,8 @@
 import { styled } from "@mui/material/styles";
 import { Grid, Paper } from '@mui/material'
 import React from 'react'
+import { useNavigate } from "react-router-dom";
+
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#FFFBEB",
@@ -11,10 +13,12 @@ const Item = styled(Paper)(({ theme }) => ({
     boxShadow: "none",
   }));
 
-const LoanListItem = () => {
+const LoanListItem = ({data}) => {
+    const navigate = useNavigate();
   return (
     <Grid
           container
+          onClick={()=>navigate(`/loan/${data.id}`)}
           sx={{
             bgcolor: "#FFFBEB",
             boxShadow: 3,
