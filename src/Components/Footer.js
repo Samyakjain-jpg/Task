@@ -6,12 +6,10 @@ const Footer = () => {
     <Paper
       elevation={3}
       style={{
-        position: "sticky",
         padding: "20px",
         bottom: 0,
         width: "97%",
         background: "black",
-        marginTop:"50px"
       }}
     >
       <Typography variant="body2" color="white" align="center">

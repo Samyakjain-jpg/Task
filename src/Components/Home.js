@@ -66,7 +66,7 @@ const ContactForm = () => (
   </Paper>
 );
 
-const HomePage = () => {
+const Home = () => {
   const testimonials = [
     {
       name: "John Doe",
@@ -142,4 +142,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Home;
